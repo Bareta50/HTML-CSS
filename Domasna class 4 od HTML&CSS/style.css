@@ -1,0 +1,55 @@
+body{
+    margin-left: 80px;
+
+}
+#igmchess img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#Tabletop-games-or {
+    width: 410px;
+    padding: 15px;
+    border: 1px transparent #ddd;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 1.4;
+    border-radius: 8px;
+}
+
+#table1{
+    
+th{
+    padding: 13px;
+    border: 1px solid   black;
+    background-color: rgb(236, 245, 245);
+}
+tr,td{
+border: 1px solid   black;
+}
+tbody{
+    background-color: #dddddd36;
+}
+    width: 602px;
+    height: 1000px;
+    border: 0px;
+    padding: 1px;
+    margin: 0px;
+}
+#hrdiv1{
+    width: 602px;
+    height: 8px;
+    border: 0px;
+    padding: 1px;
+    margin: 0px;
+}
+#Games-like{
+    width: 770px;
+    height: auto;
+    margin-left: 5px;
+}
+#h5pg1{
+    text-align: center;
+}
