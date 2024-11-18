@@ -1,0 +1,84 @@
+
+body{
+    margin: 0px;
+    
+}
+
+#wikiimg{
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 93%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+#main1{
+    position: relative;
+}
+
+#figcontainer1{
+    position: absolute;
+    top: 0px;
+    right: -300px;
+    margin: -30px;
+}
+
+#Fig1{
+    
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
+    width: 200px;
+}
+
+#Fig2{
+    
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
+    width: 221px;
+}
+
+.figcap{
+    padding-left: 10px;
+    width: 200px;
+}
+
+table,th,td{
+    padding: 0px;
+    border: 1px solid;
+    border-color: rgb(236, 236, 236);
+    background-color:rgb(245, 245, 245) ;
+}
+footer{
+    font-size: x-small;
+    margin-left: 5%;
+    margin-right: 5%;
+}

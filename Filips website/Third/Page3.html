@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/Page3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Sign Up</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../Main/Home.html">Home</a></li>
+                <li><a href="../Second/Page2.html">About</a></li>
+                <li><a href="Page3.html">Profile</a></li>
+                <li><a href="../Caffe/Coffee.html">Coffee</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <h3>Welcome to the profile creation page.</h3>
+        <p>Plese fill in the form :&rpar;</p>
+      <form class="form" action="" method="post">
+        <fieldset>
+            <legend>Contact details</legend>
+                <label for="User">Username:</label>
+                <br>
+                <input type="text" name="User" id="Username" />
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email" />
+                <br>
+                <br>
+                <label for="telephone">Telephone:</label>
+                <br>
+                <input type="text" name="telephone" id="telephone" />
+                <hr>
+                <p>Do you like Cats?</p>
+                <label for="Cat">
+                    Yes?
+                </label>
+                <input type="radio" name="cat" id="Cat">
+                <br>
+                <label for="CATS">
+                    YES
+                </label>
+            
+                <input type="radio" name="cat" id="CAT">
+                <hr>
+                <p>What is a cat's favorite activity?</p>
+                <label for="Eat">1&rpar; Eating</label>
+                <input type="radio" name="Choice" id="Eat">
+                <br>
+                <label for="Sleep">1&rpar; Sleeping</label>
+                <input type="radio" name="Choice" id="Sleep">
+                <br>
+                <label for="Play">3&rpar; Playing</label>
+                <input type="radio" name="Choice" id="Play">
+                <br>
+                <label for="Annoying">4&rpar; Annoying their owner</label>
+                <input type="radio" name="Choice" id="Annoying">
+                <hr>
+                <p>Select a breed</p>
+                
+                <select name="Catbreed" id="Breed" size="3" multiple="multiple">
+                    <option value="Sia" selected>
+                        Siamese</option>
+                    <option value="BritSho">British Shorthair</option>
+                    <option value="mainCoon"
+                    selected="selected">Maine Coon</option>
+                    <option value="ScotFold">Scottish Fold</option>
+                </select>
+                <br><br>
+                <label for="doG">Dog?</label>
+                <input type="checkbox" name="Dog" id="doG">
+                <br><hr>
+                <br>
+                <input type="submit" value="Sign Up" />
+	<input type="reset" value="Reset Form" />
+
+        </fieldset>
+      </form>
+    </main>
+</body>
+</html>
